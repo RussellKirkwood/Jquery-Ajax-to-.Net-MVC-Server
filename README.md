@@ -47,9 +47,12 @@ Jquery AJAX to communicate with .Net MVC controller and Parse returned JSON
 the MVC .Net Controller codes looks like
 
 ```
-public async Task<DataResults> getData(float DataID)
+public async Task<DataResults> getData(float Dataid)
         {
             var Result = new DataResults(); 
+            
+            // you can do something with the dataid DATA that querystring contains
+            
             Result.thedatafield1 = 'some data';
             Result.thedatafield2 = 'some more data';
 
