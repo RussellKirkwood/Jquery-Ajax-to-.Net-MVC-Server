@@ -1,5 +1,5 @@
 # Jquery-Ajax-to-.Net-MVC-Server
-Jquery AJAX to communicate with MVC controller and Parse returned JSON
+Jquery AJAX to communicate with .Net MVC controller and Parse returned JSON
 
 
 ```
